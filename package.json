@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "Playwright automation — saucedemo.com",
   "scripts": {
-    "test": "node saucedemo_test.js"
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
   },
   "license": "ISC",
   "dependencies": {
     "playwright": "^1.62.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2"
   }
 }
