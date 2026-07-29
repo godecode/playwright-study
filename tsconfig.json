@@ -7,10 +7,8 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "types": ["node"]
   },
-  "include": [
-    "tests/**/*.ts",
-    "playwright.config.ts"
-  ]
+  "include": ["tests/**/*.ts", "playwright.config.ts"]
 }
