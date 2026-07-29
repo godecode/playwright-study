@@ -1,0 +1,12 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "Playwright automation — saucedemo.com",
+  "scripts": {
+    "test": "node saucedemo_test.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.62.0"
+  }
+}
